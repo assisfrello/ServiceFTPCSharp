@@ -1,0 +1,19 @@
+{
+  "FTP": [
+    {
+      "ServicoDownloadAtivo": "false",
+      "ServicoUploadAtivo": "false",
+      "Servidor": "192.168.102.1",
+      "Porta": "21",
+      "Usuario": "seuusuario",
+      "Senha": "1234",
+      "_SubdiretorioUpload": "IN//",
+      "DiretorioUpload": "C:\\FTP\\ArquivoFtpUpload\\",
+      "DiretorioUploadEnviados": "C:\\FTP\\ArquivoFtpUploadEnviados\\",
+      "DiretorioUploadErros": "C:\\FTP\\ArquivoFtpUploadErros\\",
+      "_SubdiretorioDownload": "OUT//",
+      "DiretorioDownload": "C:\\FTP\\ArquivoFtpDownload\\",
+      "DiretorioDownloadLidos": "C:\\FTP\\ArquivoFtpDownloadLidos\\"
+    }
+  ]
+}

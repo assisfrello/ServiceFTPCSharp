@@ -1,0 +1,203 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.CrossCutting.IoC\\Ftp.CrossCutting.IoC.csproj": {}
+  },
+  "projects": {
+    "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.CrossCutting.IoC\\Ftp.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.CrossCutting.IoC\\Ftp.CrossCutting.IoC.csproj",
+        "projectName": "Ftp.CrossCutting.IoC",
+        "projectPath": "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.CrossCutting.IoC\\Ftp.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\assis.frello\\.nuget\\packages\\",
+        "outputPath": "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\assis.frello\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "http://192.168.101.31:9500/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.Domain\\Ftp.Domain.csproj": {
+                "projectPath": "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.Domain\\Ftp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.CrossCutting\\Ftp.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.CrossCutting\\Ftp.CrossCutting.csproj",
+        "projectName": "Ftp.CrossCutting",
+        "projectPath": "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.CrossCutting\\Ftp.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\assis.frello\\.nuget\\packages\\",
+        "outputPath": "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\assis.frello\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "http://192.168.101.31:9500/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.Domain\\Ftp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.Domain\\Ftp.Domain.csproj",
+        "projectName": "Ftp.Domain",
+        "projectPath": "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.Domain\\Ftp.Domain.csproj",
+        "packagesPath": "C:\\Users\\assis.frello\\.nuget\\packages\\",
+        "outputPath": "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\assis.frello\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "http://192.168.101.31:9500/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.CrossCutting\\Ftp.CrossCutting.csproj": {
+                "projectPath": "C:\\Assis\\Projeto\\ServiceFtp\\Ftp.CrossCutting\\Ftp.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2020.0.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
