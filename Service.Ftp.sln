@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Distributed Layer", "1 - Distributed Layer", "{04F93E16-CAB2-434E-A0D7-A5CD879EE2C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftp.Service", "Ftp.Service\Ftp.Service.csproj", "{1BACC893-5CCA-4B78-820F-A8786157988B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain Layer", "2 - Domain Layer", "{ADA3DFDE-0F45-48C0-98E0-D745332B7CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftp.Domain", "Ftp.Domain\Ftp.Domain.csproj", "{720ED252-B88E-40F3-94B5-41F14FBA3D52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure Layer", "3 - Infrastructure Layer", "{F3E79761-7DF0-47FC-84FB-18C9C8A6DCF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 - CrossCutting", "{ED390222-42E5-4C2F-B95D-B883C27CF4FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftp.CrossCutting", "Ftp.CrossCutting\Ftp.CrossCutting.csproj", "{1792E64E-994C-4DBB-9562-D1D6BDB738DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftp.CrossCutting.IoC", "Ftp.CrossCutting.IoC\Ftp.CrossCutting.IoC.csproj", "{F6C661FD-C8B9-46B2-812F-5B7C086444F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BACC893-5CCA-4B78-820F-A8786157988B} = {04F93E16-CAB2-434E-A0D7-A5CD879EE2C3}
+		{720ED252-B88E-40F3-94B5-41F14FBA3D52} = {ADA3DFDE-0F45-48C0-98E0-D745332B7CE1}
+		{ED390222-42E5-4C2F-B95D-B883C27CF4FB} = {F3E79761-7DF0-47FC-84FB-18C9C8A6DCF3}
+		{1792E64E-994C-4DBB-9562-D1D6BDB738DD} = {ED390222-42E5-4C2F-B95D-B883C27CF4FB}
+		{F6C661FD-C8B9-46B2-812F-5B7C086444F3} = {ED390222-42E5-4C2F-B95D-B883C27CF4FB}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BACC893-5CCA-4B78-820F-A8786157988B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BACC893-5CCA-4B78-820F-A8786157988B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BACC893-5CCA-4B78-820F-A8786157988B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BACC893-5CCA-4B78-820F-A8786157988B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720ED252-B88E-40F3-94B5-41F14FBA3D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720ED252-B88E-40F3-94B5-41F14FBA3D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720ED252-B88E-40F3-94B5-41F14FBA3D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720ED252-B88E-40F3-94B5-41F14FBA3D52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1792E64E-994C-4DBB-9562-D1D6BDB738DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1792E64E-994C-4DBB-9562-D1D6BDB738DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1792E64E-994C-4DBB-9562-D1D6BDB738DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1792E64E-994C-4DBB-9562-D1D6BDB738DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C661FD-C8B9-46B2-812F-5B7C086444F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C661FD-C8B9-46B2-812F-5B7C086444F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C661FD-C8B9-46B2-812F-5B7C086444F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C661FD-C8B9-46B2-812F-5B7C086444F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
